@@ -1,0 +1,84 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  box-sizing:border-box ;
+}
+#root{
+  height: 100vh;
+  width: 100vw;
+  background-color: teal;
+  display: flex;
+  flex-direction: row;
+}
+.display {
+  border:3px solid grey;
+  height:100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+} 
+.board {
+  border:3px solid grey;
+  height:100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+} 
+
+.title{
+height: 10%;
+width: 100%;
+background-color:teal;
+text-align: center;
+line-height:60px ;
+vertical-align: middle;
+font-size: 50px;
+}
+.content{
+height:90%;
+width: 100%;
+border: 3px solid white;
+/* display: flex; */
+}
+.ttt{
+  height: 75%;
+  width: 75%;
+  margin: 12.5% auto ;
+  border: 3px solid white;
+  border-radius: 8px;
+display: flex;
+flex-direction: column;
+}
+.history{
+  height: 75%;
+  width: 75%;
+  border: 3px solid white;
+  margin: 12.5% auto ;
+ border-radius: 5px;
+ display: flex;
+ flex-direction: column;
+ overflow-y: auto;
+}
+.row{
+height: 100%;
+border: 3px solid white;
+display: flex;
+flex-direction: row;
+/* background-color: whitesmoke; */
+}
+.row button{
+  width: 100%;
+  cursor: pointer;
+  font-size: 100px;
+}
+.row button:hover{
+ background-color: aqua;
+}
+.history button{
+  height: 10%;
+  font-size: 30px;
+}
+.history button:hover{
+cursor: pointer;}
